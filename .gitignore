@@ -9,10 +9,23 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 dist/
 *.egg-info/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
 
 # IDE
 .vscode/
